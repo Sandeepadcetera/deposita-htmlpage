@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   position: relative;
   padding-right: 20px;
@@ -517,7 +521,7 @@ body {
 .form__group input,
 .form__group textarea {
   width: 100%;
-  max-width: 300px;
+  box-sizing: border-box;
   display: block;
   padding: 16px;
   overflow: hidden !important;
