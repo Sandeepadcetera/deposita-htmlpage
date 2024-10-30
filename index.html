@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.adobe.com/fonts/acumin-variable#fonts-section">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <!-- jQuery and Slick JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+  <div class="banner">
+    <div class="banner-image">
+      <img src="./images/Banner.png" alt="banner-image">
+    </div>
+    <div class="banner-image-mobil">
+      <img src="./images/banner-mobil.png" alt="banner-image">
+    </div>
+  </div>
+  <div class="navbar-wrapper">
+    <div class="navbar-toggle">Select a page section</div>
+    <div class="container">
+      <div class="navbar-items">
+        <ul>
+          <li>
+            <a href="#">
+              TOTAL CASH MANAGEMENT ECOSYSTEM
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              BENEFITS
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              CUSTOMER STORIES
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              CONTACT US
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="feature-section">
+      <div class="feature-section__content">
+        <h2 class="feature-section__heading">IT'S CASH MANAGEMENT. ONLY BETTER.</h2>
+        <div class="feature-section__description">
+          <p>
+            Cash management is more than just a high-tech safe. It’s more than just provisional credit. It’s more than
+            just getting your cash from point A to point B efficiently. In fact, it’s much more.
+          </p>
+          <p>Welcome to the Power of Partnership Program from Deposita and GardaWorld. We put together experts in retail
+            operations, accounting, software, and logistics to collaborate directly with your team. We provide software
+            automation and operational efficiencies designed to make the most out of your business. You can leverage our
+            banking relationships, discover the difference of our transparent fee structure, and transition your
+            business into a technology-optimized operation within your desired timeframe.</p>
+          <p>The largest cash processor and the largest provider of cash automation solutions in the country have joined
+            forces. Cash management will never be the same.</p>
+        </div>
+      </div>
+      <div class="feature-section__image">
+        <img src="./images/feature.png" alt="A girl holding the tablet">
+      </div>
+    </div>
+  </div>
+
+  <div class="accordian-wrapper">
+    <div class="container">
+      <div class="accordian-text-wrapper">
+        <h2 class="accordian-title">Total Cash Management Ecosystem </h2>
+        <p class="accordian-body">Deposita understands that every part of the cash management ecosystem is unique and
+          complex in its own way. That’s why our diverse team of developers, data scientists, product managers, recon
+          specialists, and retail SME work together to help you manage, safeguard and streamline your business so you
+          can achieve more, everywhere. Our Managed Services team will use market-leading expertise to leverage data in
+          a way that benefits every aspect of your unique business needs and cash management. </p>
+      </div>
+      <div class="accordian-item--wrapper">
+        <div class="accordian-section__image">
+          <img src="./images/accordian.png" alt="A city with all neccesary items">
+        </div>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">1.Storefront</button>
+            <div class="accordion-content">
+              <p>Our team of retail SME helps you keep the front of the store safe and operating at maximum efficiency
+                with a smart safe solution that integrates seamlessly with your POS data and scales easily across your
+                enterprise.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">2.Cash Office</button>
+            <div class="accordion-content">
+              <p>Increase efficiency and reduce risk by leveraging our smart safe program to automate your cash handling
+                and accounting activities. Our team will help you select the right solution designed to improve
+                accuracy, accountability, and profitability for your business.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">3.Cash-in-Transit</button>
+            <div class="accordion-content">
+              <p>Let the GardaWorld x Deposita team handle the day-to-day administration and CIT exceptions with both
+                automated tools for tracking pickups and active support to minimize impact to store operations when
+                action is needed. And our "NRT" alerts and self-service reporting mean you’ll know where every dollar is
+                24/7.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">4.KOYUS® Automation</button>
+            <div class="accordion-content">
+              <p>What our experts can do with your data is nothing short of amazing. Our team integrates your processes
+                and systems into a custom-built solution that uses the industry’s most advanced cash automation platform
+                for immediate benefits to your bottom line that continue long after installation. </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">5.Banking</button>
+            <div class="accordion-content">
+              <p>Take advantage of our close relationships with a wide array of major banking partners to gain same-day
+                provisional credit that helps you optimize your cash holdings. And our support team is constantly by
+                your side, helping you to reduce operational delays and risk, all while minimizing manual cash handling
+                costs.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">6.Cash Process Audit</button>
+            <div class="accordion-content">
+              <p>Our dedicated team of experts is well-versed in analyzing every aspect of your cash process to help you
+                realize true gains across your operations. Let our team help you with 24/7/365 support to ensure every
+                detail works as designed, perfecting every aspect of your cash management process and your smart safe
+                solution from implementation to a new and improved business as usual.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">7.Cash Handling Devices</button>
+            <div class="accordion-content">
+              <p>Leverage our expertise to determine the right equipment and configuration for your needs, customized by
+                location, from a deposit only device to deposit + dispense options, and more. Our partnership with
+                Sesami, the industry’s leading smart safe provider, means you’ll get the latest technology and security
+                in smart safes.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header" onclick="toggleAccordion(this)">8.Corporate Head Office</button>
+            <div class="accordion-content">
+              <p>Our process transformation team offers hands-on support to ensure you implement changes to your cash
+                management program to realize a wealth of financial benefits, from loss prevention to labor cost
+                reduction, and from streamlined treasury to improved customer experience. You’ll have access to
+                real-time information so you can reduce risk and cash leakage across your operations, enterprise-wide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="benefits">
+      <h2 class="benefits__title">Benefits</h2>
+
+      <div class="benefits__list">
+        <div class="benefits__item">
+          <div class="benefits__icon benefits__icon--leadership">
+            <img src="./images/leadership.png" alt="leadership">
+          </div>
+          <h3 class="benefits__item-title">2X Leadership</h3>
+          <p class="benefits__description">
+            Enjoy the benefits of having the largest cash processor in the country and the largest provider of cash
+            automation solutions in North America working together to improve your bottom line.
+          </p>
+        </div>
+
+        <div class="benefits__item">
+          <div class="benefits__icon benefits__icon--experts">
+            <img src="./images/access.png" alt="access">
+          </div>
+          <h3 class="benefits__item-title">Direct Access to Experts</h3>
+          <p class="benefits__description">
+            From retail specialists to software developers to CPAs, the Deposita and GardaWorld partnership puts you in
+            direct contact with the leading experts in all aspects of cash management.
+          </p>
+        </div>
+
+        <div class="benefits__item">
+          <div class="benefits__icon benefits__icon--innovation">
+            <img src="./images/innovation.png" alt="innovation">
+          </div>
+          <h3 class="benefits__item-title">Unrivalled Innovation</h3>
+          <p class="benefits__description">
+            Discover how industry-leading cash automation can help you achieve greater ROIs. Our proprietary software
+            platform KOYUS® will minimize your transaction costs, remove inefficiencies, protect and improve your
+            working capital, and can deploy at unprecedented scale. And with an ever-growing list of capabilities, you
+            will continue to see new benefits and features for years to come. 
+          </p>
+        </div>
+
+        <div class="benefits__item">
+          <div class="benefits__icon benefits__icon--transparency">
+            <img src="./images/visibility.png" alt="Transparency">
+          </div>
+          <h3 class="benefits__item-title">True Transparency and Visibility</h3>
+          <p class="benefits__description">
+            With the Deposita and GardaWorld partnership, what you don’t get is unclear fees or uncertain
+            accountability. We promise clear accounting of what you’re paying for and who to contact for any service
+            concern. We even reduce the need for time-intensive phone calls by providing you with real-time visibility
+            on your cash and real-time forecasts on all issue resolutions.
+          </p>
+        </div>
+
+        <div class="benefits__item">
+          <div class="benefits__icon benefits__icon--personalized">
+            <img src="./images/specialized.png" alt="feature">
+          </div>
+          <h3 class="benefits__item-title">Specialized and Personalized</h3>
+          <p class="benefits__description">
+            Whatever your size, our experts map a cash management program that’s designed to make the most out of your
+            business. We automate your manual tasks, replicate your processes, and integrate seamlessly into your
+            existing ecosystem while providing a solution that’s flexible for your economics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="testimonial-slider">
+      <h2 class="testimonial-slider__heading">Hear from Our Customers</h2>
+      <div class="testimonial-slider__container">
+        <div class="testimonial-slider__slide">
+          <div class="testimonial-slider__content">
+            <p class="testimonial-slider__quote">
+              “Ut amet arcu adipiscing sit nec pellentesque vestibulum pellentesque dictum. Porttitor id dignissim duis
+              varius. Dui ut volutpat sit at vulputate in sed ipsum.”
+            </p>
+            <div class="testimonial-slider__author">
+              <p class="testimonial-slider__author-name">John Doe</p>
+              <p class="testimonial-slider__author-title">CEO of XYZ Inc</p>
+            </div>
+          </div>
+          <div class="testimonial-slider__image">
+            <img src="./images/slider.jpeg" alt="Customer Image" class="testimonial-slider__image-photo">
+          </div>
+        </div>
+        <div class="testimonial-slider__slide">
+          <div class="testimonial-slider__content">
+            <p class="testimonial-slider__quote">
+              “Ut amet arcu adipiscing sit nec pellentesque vestibulum pellentesque dictum. Porttitor id dignissim duis
+              varius. Dui ut volutpat sit at vulputate in sed ipsum.”
+            </p>
+            <div class="testimonial-slider__author">
+              <p class="testimonial-slider__author-name">John Doe 2</p>
+              <p class="testimonial-slider__author-title">CEO of XYZ Inc</p>
+            </div>
+          </div>
+          <div class="testimonial-slider__image">
+            <img src="./images/slider.jpeg" alt="Customer Image" class="testimonial-slider__image-photo">
+          </div>
+        </div>
+        <div class="testimonial-slider__slide">
+          <div class="testimonial-slider__content">
+            <p class="testimonial-slider__quote">
+              “Ut amet arcu adipiscing sit nec pellentesque vestibulum pellentesque dictum. Porttitor id dignissim duis
+              varius. Dui ut volutpat sit at vulputate in sed ipsum.”
+            </p>
+            <div class="testimonial-slider__author">
+              <p class="testimonial-slider__author-name">John Doe 3</p>
+              <p class="testimonial-slider__author-title">CEO of XYZ Inc</p>
+            </div>
+          </div>
+          <div class="testimonial-slider__image">
+            <img src="./images/slider.jpeg" alt="Customer Image" class="testimonial-slider__image-photo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="about-section">
+      <div class="about-section__content">
+        <h2 class="about-section__heading">About Deposita</h2>
+        <p class="about-section__text">
+          Deposita is the market leader in automated cash management solutions in North America. Our team of experts in
+          retail operations, accounting, software, and logistics collaborate directly with our clients to deliver
+          game-changing software automation and operational efficiencies designed to make the most out of their
+          business.
+        </p>
+      </div>
+      <div class="about-section__image">
+        <img src="./images/about.png" alt="Person at desk with computer monitors displaying charts"
+          class="about-section__image-photo">
+      </div>
+    </div>
+    <div class="about-section reverse-direction">
+      <div class="about-section__content">
+        <h2 class="about-section__heading">About Deposita</h2>
+        <p class="about-section__text">
+          Deposita is the market leader in automated cash management solutions in North America. Our team of experts in
+          retail operations, accounting, software, and logistics collaborate directly with our clients to deliver
+          game-changing software automation and operational efficiencies designed to make the most out of their
+          business.
+        </p>
+      </div>
+      <div class="about-section__image">
+        <img src="./images/about-reverse.png" alt="Person at desk with computer monitors displaying charts"
+          class="about-section__image-photo">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <div class="container">
+      <h1 class="form-container__title">Let's Start a Conversation</h1>
+      <p class="form-container__description">
+        We recognize every organization is unique. That's why our approach is consultative, and our solutions are
+        tailored to meet your specific needs. Contact us today to explore how we can work together to achieve your
+        goals.
+      </p>
+      <p class="form-container_indicatoin">* indicates a required field</p>
+      <form class="form" id="contactForm">
+        <div class="form__group">
+          <label for="fullName" class="form__label">Full Name *</label>
+          <input type="text" id="fullName" class="form__input" name="fullName" placeholder="Full Name" required>
+        </div>
+
+        <div class="form__group">
+          <label for="company" class="form__label">Company *</label>
+          <input type="text" id="company" class="form__input" name="company" placeholder="Company" required>
+        </div>
+
+        <div class="form__group">
+          <label for="industry" class="form__label">Industry</label>
+          <input type="text" id="industry" class="form__input" name="industry" placeholder="Industry">
+        </div>
+
+        <div class="form__group">
+          <label for="email" class="form__label">Email Address *</label>
+          <input type="email" id="email" class="form__input" name="email" placeholder="abc@domain.com" required>
+        </div>
+
+        <div class="form__group">
+          <label for="phone" class="form__label">Phone Number</label>
+          <input type="tel" id="phone" class="form__input" name="phone" placeholder="(000) 000-0000"
+            pattern="^\(\d{3}\) \d{3}-\d{4}$">
+        </div>
+
+        <div class="form__group">
+          <label for="message" class="form__label">Message</label>
+          <textarea id="message" class="form__textarea" name="message" placeholder="Leave us a message"></textarea>
+        </div>
+
+        <div class="form__group form__group--checkbox">
+          <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+          <label for="privacyPolicy" class="form__label">I agree to the Privacy Policy and allow sales representatives
+            to contact me to answer my questions.</label>
+        </div>
+
+        <div class="form__group">
+          <a href="#" class="form__link">Privacy Policy</a>
+        </div>
+
+        <div class="form__group">
+          <div id="recaptcha" class="form__recaptcha">
+            <div class="g-recaptcha" data-sitekey="6LfZlm8qAAAAAMVFJKw_Uzq3ddT354ycmbrV7Z3r"></div>
+          </div>
+        </div>
+        <div class="form-wrapper-cta">
+          <button type="submit" class="form__button">Get Started</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-image">
+      <img src="./images/footer.png" alt="footer image">
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
