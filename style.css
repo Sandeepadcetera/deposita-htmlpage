@@ -264,6 +264,11 @@ html {
   text-align: center;
 }
 
+.accordion-item span.trademark {
+  vertical-align: super;
+  font-size: smaller;
+}
+
 .accordian-text-wrapper .accordian-body {
   margin: 0 auto;
   font-family: 'acumin-pro', sans-serif;
