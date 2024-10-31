@@ -46,6 +46,13 @@ $(document).ready(function () {
   });
 });
 
+function formatPhoneNumber(input) {
+  const cleaned = input.value.replace(/\D/g, '');
+
+  const formatted = cleaned.replace(/^(\d{3})(\d{3})(\d{0,4})$/, '($1) $2-$3');
+  input.value = formatted;
+}
+
 document.getElementById("contactForm").addEventListener("submit", function (event) {
   event.preventDefault();
 
