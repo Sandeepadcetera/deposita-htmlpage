@@ -38,6 +38,7 @@ $(document).ready(function () {
     dots: true,
     infinite: false,
     speed: 500,
+    infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: '<button type="button" aria-label="Previous slide" class="slick-prev slick-arrow"><img src="./images/chevron_backward.svg" alt="arrow"></button>',

@@ -194,7 +194,8 @@ html {
 
 .accordian-section__image img {
   max-width: 100%;
-  height: 280px;
+  height: inherit;
+  width: 100%;
 }
 
 .accordion {
@@ -911,6 +912,7 @@ html {
   .accordian-section__image img {
     max-width: 100%;
     height: 600px;
+    width: unset;
   }
 
   .benefits {
